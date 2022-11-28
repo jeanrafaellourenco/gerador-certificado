@@ -1,12 +1,11 @@
 # Gerador de Certificado
-Gerador de certificado em PDF 
-
+Gerador de certificado em PDF  
+[Demo](https://jeanrafaellourenco.github.io/gerador-certificado)
 ## Configurações de impressão
 
 - Utilize o tamanho do papel **Tabloid** e o Layout como **Paisagem**.  
 
-- O nome pode ser inserido pelo botão `INSERIR NOME` ou via parâmetro na url:  
- `..../index.html?nome=Gulherme%20Briggs`  
+- O nome pode ser inserido pelo botão `INSERIR NOME` ou via parâmetro na url: [Guilherme Briggs](https://jeanrafaellourenco.github.io/gerador-certificado/?nome=Guilherme%20Briggs)
 
 ![impressao](./images/impressao.png)  
 #
@@ -18,8 +17,8 @@ Gerador de certificado em PDF
 
 ### In Progress
 
-- [ ]   
+- [ ]  
 
 ### Done ✓
 
-- [] 
+- [ ]  
