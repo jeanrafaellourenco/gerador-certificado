@@ -17,8 +17,8 @@ Gerador de certificado em PDF
 
 ### In Progress
 
-- [ ]  
+- 
 
 ### Done ✓
 
-- [ ]  
+- 
