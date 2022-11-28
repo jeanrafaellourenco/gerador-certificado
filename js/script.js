@@ -38,7 +38,13 @@ button.onclick = function () {
 const urlParams = new URLSearchParams(window.location.search);
 var url_pessoa = urlParams.get('nome')
 
+var lt = /</g, 
+    gt = />/g, 
+    ap = /'/g, 
+    ic = /"/g;
+
 if (url_pessoa) {
+    url_pessoa = url_pessoa.toString().replace(lt, "&lt;").replace(gt, "&gt;").replace(ap, "&#39;").replace(ic, "&#34;");
     document.getElementById("pessoa").innerHTML = url_pessoa;
     var titulo = url_pessoa.replace(/ /g, "_");
     document.getElementById("titulo").innerHTML = titulo;
